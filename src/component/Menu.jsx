@@ -25,13 +25,13 @@ class Menu extends Component {
         
         return (
             <div className="burger_menu">
-            <h3 className="text-center">Chon thuc an</h3>
+            <h3 className="text-center">Chọn thức ăn</h3>
              <table className="table">
                  <thead>
                      <tr>
-                         <th>Thuc an</th>
+                         <th>Thức ăn</th>
                          <th></th>
-                         <th>Gia</th>
+                         <th>Giá</th>
                      </tr>
                  </thead>
                  <tbody>
@@ -40,7 +40,7 @@ class Menu extends Component {
                 <TongTien/>
                      <tr>
                 <td scope="row"></td>
-                <td><div className="thanhToan"><button className="btn btn-success ">Thanh Toan</button></div></td>
+                <td><div className="thanhToan"><button className="btn btn-success ">Thanh Toán</button></div></td>
                 </tr>
                  </tbody>
              </table>

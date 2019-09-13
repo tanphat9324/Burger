@@ -11,7 +11,7 @@ export default class BaiTap extends Component {
             <div>
             <div className="container burger">
                 <div className="burger_store">
-                <h3 className="text-center">Cua hang burger Cybersoft</h3>
+                <h3 className="text-center">Cửa hàng burger Cybersoft</h3>
                     <div className="breadTop"></div>
                         <CuaHang/>
                     <div className="breadBottom"></div>

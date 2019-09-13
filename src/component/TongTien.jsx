@@ -7,9 +7,9 @@ import {connect} from 'react-redux';
             <tr>
                 <td scope="row"></td>
                 <td>
-                <p className="">Tong Tien</p>
+                <strong className="">Tổng Tiền</strong>
                 </td>
-                <td>{this.props.tong}</td>
+                <td><strong>{this.props.tong}</strong></td>
         </tr>
         )
     }
